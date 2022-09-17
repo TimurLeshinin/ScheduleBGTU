@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Schedule BGTU</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="faculties">
+        <item>Механико-технологический факультет</item>
+        <item>Факультет информационных технологий</item>
+        <item>Факультет отраслевой и цифровой экономики</item>
+        <item>Факультет энергетики и электроники</item>
+    </string-array>
+
+
+    <string-array name="level">
+        <item>бакалавр</item>
+        <item>специалист</item>
+        <item>магистр</item>
+        <item>аспирант</item>
+    </string-array>
+
+    <string-array name="group">
+        <item>О-22-МАШ-ирм-Б</item>
+
+    </string-array>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

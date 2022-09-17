@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presenters.activities.start.StartActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_faculty_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Факультет"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/faculties" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Уровень образования"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/level" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Курс"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/course" />
+
+        <Button
+            android:id="@+id/btn_choose_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text ="Продолжить"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_group_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Группа"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner_groups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/group"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text ="Продолжить"
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text ="Назад"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
